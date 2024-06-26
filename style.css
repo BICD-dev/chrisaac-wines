@@ -228,6 +228,7 @@
     opacity:0;
     transform:translateY(50px);
     transition:transform 1s, opacity 1s;
+    grid-gap:6rem;
     }
     .story .part1{
     transition-delay:500ms;
@@ -249,8 +250,9 @@
     
     }
     section.img img{
-    width:100%;
+    width:80%;
     height:65vh;
+    border-radius: 50%;;
     
     }
     #aboutlink:hover{
