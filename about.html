@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> <title>About - Chrisaac</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+margin:1rem;
+background-color:white;
+}
+p{
+    font-size: 1.6rem;
+}
+a{
+    color:inherit;
+    text-decoration:none;
+}
+.header{
+background-color:white;
+color:#230202;
+height:fit-content;
+width:100%;
+}
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:3rem;
+line-height:2rem;
+}
+.navbar h1{
+font-size:2rem;
+font-family:robotto;
+}
+.opensidebar{
+color:#230202;
+background-color:white;
+font-size:1.7rem;
+border:none;
+font-weight:bold;
+cursor:pointer;
+}
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+margin-bottom:1rem;
+}
+.about h4{
+font-weight:100;
+}
+.about article{
+line-height:2rem;
+}
+.goals{
+display:grid;
+grid-template-columns:1fr 1fr;
+margin-top:2.5rem;
+grid-gap:2rem;
+}
+.image img{
+margin-top:2.3rem;
+height:75vh;
+width:35rem;
+}
+.missionVision{
+line-height:2rem;
+
+}
+.missionVision p{
+margin-bottom:2.5rem;
+}
+.missionVision h4{
+margin-bottom:1.6rem;
+}
+.table{
+display:grid;
+grid-template-columns:1fr 1fr;
+grid-gap:2rem;
+}
+.table img{
+height:40vh;
+width:20vw;
+}
+footer{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    background-color:#230202;
+    color:white;
+    line-height:2rem;
+    }
+    footer p{
+    color:grey;
+    }
+    footer h3, footer h1{
+    margin-bottom:1.4rem;
+    
+    }
+    .conclude{
+    border-top:2px solid brown;
+    margin-top:3rem;
+    color:grey;
+    background-color:#230202;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    }
+    .gridtwo{
+        margin-top: 7rem;
+    }
+    
+@media screen and (max-width:550px){
+    p{
+        font-size: 1.6rem;
+    }
+    h4{
+        font-size: 1.8rem;
+    }
+    .gridtwo{
+        display:none;
+    }
+    .goals{
+    grid-template-columns:1fr;
+    }
+    .table{
+    width:100%;
+    grid-template-columns:1fr;
+    text-align:center;
+    }
+    .table img{
+    width:74%;
+    height:56vh;
+    }
+    .image img{
+        width:21rem;
+        height:50vh;
+    }
+    .part1 h1{
+    text-align:center;
+    font-weight:100;
+    }
+    .foot1{
+    grid-area:section;
+    }
+    .page{
+    grid-area:article;
+    }
+    .Resources{
+    grid-area:side;
+    }
+    .hours{
+    grid-area:nav
+    }
+    footer{
+    grid-template-areas:"section section section section"
+    "article side nav nav";
+    grid-gap:0.5rem;
+    width:fit-content
+    }
+    footer p{
+        font-size: 1rem
+    }
+    footer h3{
+    margin-top:1rem;
+    }
+}
+</style>
+</head>
+<body>
+<div class ="header">
+<!--navbar-->
+<section class="navbar">
+<h1>Chrisaac</h1>
+<button class="opensidebar"> &equiv;</button>
+
+</section>
+
+
+<div class="about">
+<section class="gridone">
+<h4>About Chrisaac</h4>
+<h2>Our Story</h2>
+
+<section class="image">
+<img src="carrying wine.jpg" alt="carrying wine"/>
+</section>
+<article>
+<p>We've curated a meticulously handpicked selection of wines from renowned companies around Nigeria. Each bottle in
+our collection is a testament to our unwavering commitment to excellence, authenticity and exploration.</p>
+<p>chrisaaclalere@gmail.com</p>
+<p>+(234) 803-8331-611, +(234) 814-4286-893 </p>
+</article>
+</section>
+<section class="gridtwo">
+    <img src = "bottle_1.jpg" class="exhbition" alt="exhbition"/>
+</section>
+</div>
+<div class="goals">
+<section class="image">
+<img src="collection.jpg" alt="bottle collection"/>
+</section>
+
+<section class="missionVision">
+<h4>Our Mission</h4>
+    <p>To provide a cozy and friendly environment where customers can enjoy high-quality, drinks and wines. </p>
+
+<h4>Our Vision</h4>
+    <p>To become the go-to community shop depot for the community, known for its dedication to sustainability
+    and exceptional customer service.</p>
+
+<h4>Our Empowerment</h4>
+<p>We are dedicated to supporting sustainable practices, ethical sourcing, and fair trade principles, ensuring that every bottle 
+we offer embodies integrity and responsibility. The power of wine to empower individuals, foster connections.</p>
+
+
+</section>
+</div>
+
+<div class="member">
+    <h4>Members</h4>
+        <h2>Meet Our Team</h2>
+        <section class="table">
+            <section class="one">
+                <img src="partner_1.jpg" alt="founder"/>
+                <h4>Prince Adetunji Eyimofe Adeyefa</h4>
+                <p>Founder</p>
+            </section>
+
+            <section class="two">
+                <img src="partner_2.jpg" alt="cofounder"/>
+                <h4>Elizabeth Oyenike Adesanya</h4>
+                <p>Co-founder</p>
+            </section>
+
+        </section>
+</div>
+<div class="container">
+
+</div>
+
+<footer>
+    <section class="foot1">
+        <h1>Chrisaac Nigeria limited</h1>
+        Address:<p> 122, Ipaja road, Agege, Lagos, Nigeria </p>
+        Phone numbers:<p> 08038331611, 08144286893 </p> 
+        Email:<p> chrisaaclalere@gmail.com </p>
+        </section>
+        
+        <section class="page">
+        <h3>Pages</h3>
+        <p><a href="index.html">Home</a></p>
+        <p><a href= "about.html">About</a></p>
+        <p><a href="#Products">Products</a> </p> 
+        </section>
+        
+        <section class="Resources">
+        <h3>Resources</h3>
+        <p>Privacy Policy</p>
+        <p>Terms and Conditions</p>
+        <p>Licences</p>
+        </section>
+        
+        <section class="hours">
+        <h3>Opening Hours</h3>
+        <p>Monday : 8am-5pm</p>
+        <p>Tuesday : 8am-5pm</p>
+        <p>Wednesday : 8am-5pm</p>
+        <p>Thursday : 8am-5pm</p>
+        <p>Friday : 8am-5pm</p>
+        <p>Saturday : 9am-1pm</p>
+        </section>
+        
+        <section class="conclude">
+        <p>&copy; 2024 Chrisaac Nigeria limited</p>
+        <p>Developed by Bright Iheagwam</p>
+        </section>
+        
+</footer>
+</body>
+
+</html>
