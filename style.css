@@ -123,7 +123,12 @@
     .gridone{
     background-color:white
     }
-    
+    .gridone h4{
+        font-family: "Playwrite GB S", cursive;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        }
     .about .gridone .img1 img{
     height:50vh;
     width:100%;
