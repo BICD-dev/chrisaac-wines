@@ -128,6 +128,10 @@
         font-optical-sizing: auto;
         font-weight: bold;
         font-style: normal;
+        font-size: 1.5rem;
+        }
+        .gridone h2{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
     .about .gridone .img1 img{
     height:50vh;
@@ -136,7 +140,6 @@
     
     .about .gridtwo .img2 img{
     width:100%;
-    border:1px solid black;
     height:65vh;
     display:flex;
     justify-content:center;
