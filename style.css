@@ -6,7 +6,6 @@
     font-family: "Poppins", sans-serif;
     }
     body{
-    margin:1rem;
     background-color:#230202;
     }
     a{
@@ -24,7 +23,7 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-    border-bottom:1px solid black;
+    margin:2rem
     }
     .navbar h1{
     font-size:2rem;
@@ -38,20 +37,18 @@
     font-weight:bold;
     cursor:pointer;
     }
-    .grid{
-    margin:0;
+    .grid{ 
     display:grid;
     grid-template-columns:1fr 1fr;
     grid-gap:3rem;
     margin-top:3rem;
-    
+    margin:0 2rem 0 2rem;
     }
     .grid .grid1 img{
     width:100%;
     height:75vh;
     }
     .grid .grid2{
-    margin:1rem;
     opacity:0;
     visibility:hidden;
     transform:translateY(100px);
@@ -98,8 +95,8 @@
     border:0.5px solid brown;
     padding:1rem;
     font-size:1.2rem;
-    margin-left:0.5rem;
     padding:1rem;
+    width:fit-content;
     }
     .container{
     background-color:white;
@@ -162,17 +159,14 @@
     background:linear-gradient(45deg, #f8c693, #f8c693,#f0d09b);
     width:100%;
     height:fit-content;
-    padding-top:2rem;
+    padding-top:1rem;
     }
     .growth{
     padding:1rem;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    }
-    .growth h3{
-    font-weight:100;
-    
+    padding:2rem;
     }
     .btn{
     display:none
@@ -185,7 +179,8 @@
     }
     .history{
     margin-top:2rem;
-    
+    margin-left:2rem;
+    margin-right:2rem;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -233,15 +228,12 @@
     grid-template-columns:1fr 1fr;
     line-height:2rem;
     font-family:sans-serif;
-    margin-top:3rem;
+    margin-top:5rem;
     visibility:hidden;
     opacity:0;
     transform:translateY(50px);
     transition:transform 1s, opacity 1s;
     grid-gap:6rem;
-    }
-    .story .part1{
-    transition-delay:500ms;
     }
     .story.loaded{
     opacity:1;
@@ -257,7 +249,7 @@
     }
     section.img{
     width:100%;
-    
+    transition-delay:500ms;
     }
     section.img img{
     width:80%;
@@ -340,6 +332,7 @@
     }
     .custo{
     text-align:center;
+    margin:1rem;
     }
     .mySlides{
     display:block;
@@ -471,7 +464,7 @@
     font-size:1.2rem;
     }
     .gridone h2{
-    font-size:2.2rem;
+    font-size:2rem;
     }
     .about .gridtwo .img2 img{
     border:none;
@@ -545,6 +538,7 @@
     .story{
     grid-template-columns:1fr;
     grid-template-rows:0.4fr 0.4fr;
+    grid-gap: 2rem;
     }
     .part1 h1{
     text-align:center;
