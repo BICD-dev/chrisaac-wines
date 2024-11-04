@@ -10,15 +10,15 @@ const backdrop2 = document.querySelector(".background2");
 const drink1 = document.querySelector(".drink1");
 const drink2 = document.querySelector(".drink2");
 //event listeners
-spirit.addEventListener("click", ()=>{backdrop1.style.display="block";
-drink1.style.display="block"});
-wine.addEventListener("click", ()=>{backdrop2.style.display="block";
-drink2.style.display="block"} );
+// spirit.addEventListener("click", ()=>{backdrop1.style.display="block";
+// drink1.style.display="block"});
+// wine.addEventListener("click", ()=>{backdrop2.style.display="block";
+// drink2.style.display="block"} );
 
-backdrop1.addEventListener("click", ()=>{backdrop1.style.display="none";
-drink1.style.display="none"} );
-backdrop2.addEventListener("click", ()=>{backdrop2.style.display="none"; 
-drink2.style.display="none"} );
+// backdrop1.addEventListener("click", ()=>{backdrop1.style.display="none";
+// drink1.style.display="none"} );
+// backdrop2.addEventListener("click", ()=>{backdrop2.style.display="none"; 
+// drink2.style.display="none"} );
 
 //not working|
 
